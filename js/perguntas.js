@@ -39,7 +39,22 @@ const perguntas = [
 },
 {
     enunciado: "pergunta 4"
-    alternativas:{
-        "voce ter bom gosto",
-        "afirmação 2"
-    }
+    alternativas:[
+        {
+            texto:"nike"
+            afirmação:{
+                "voce tem bom gosto"
+                "afirmação 2"
+               ]
+            }
+        {
+    texto:"adidas",
+    afirmação:[
+    "voce e vaiado",
+    "voce não sabe escolher"
+    ],
+}
+]
+{
+    enunciado: "voce prefere nike ou adidas "
+        
