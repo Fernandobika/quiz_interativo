@@ -34,6 +34,20 @@ h1{
     color: var(--cor-destaque);
 }
 
+button{
+ background-color:var(-cor-destaque);
+ cor:var(--cor-texto);
+ border:  none;
+ border-radius: 15px;
+ padding: 15px;
+ transition: background-color 0.3s;
+}
+
+button: hover{
+ background-color: var(--cor-destaque);
+ color: var(--cor-principal);
+}
+
 .caixa-alternativas{
     display: flex;
     flex-direction: column;
@@ -44,6 +58,24 @@ h1{
     display: none;
 }
 
-.caixa-resultado.mostrar{
+.caixa-resultado.mostrar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
     display: block;
 }
