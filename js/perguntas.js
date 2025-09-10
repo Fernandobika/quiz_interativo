@@ -5,15 +5,15 @@ const perguntas = [
 {
     text: "nike",
     afirmação:[
-        "voce tem bom gosto",
-        "afirmação 2"
+        "Qual é o maior planeta do nosso sistema solar",
+        "A) Júpiter B)Saturno"
     ],
 },
 {
    texto: "adidas",
    afirmação: [
-    "voce e valido",
-    "voce não sabe escolher",
+    "Qual desses planetas tem um sistema de anéis?",
+    "A)Jupiter B)Saturno",
          ],
        }
     ]
