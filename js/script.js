@@ -47,7 +47,15 @@ function mostraAlternativa() {
 }
 
 function respostaSelecionados(opcaoSelecionada) {
-    
+const afirmacoes = aleatorios(opcaoSelecionadas.afirmacao);
+    historiaFinal +=afirmacoes +"";
+    if(opcapSelecionada.proxima;
+    atual = opcaoSelecionada.proxima;
+}else}
+mostraResultado();
+return;
+}
+mostraPergunta();
 }
 
 function mostraResultado() {
@@ -57,3 +65,28 @@ function mostraResultado() {
     caixaResultado.classList.add(".mostrar");
     botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
+
+funtion jogaNovamente() {
+    atual=0;
+    historiaFinal = "";
+    caixaResultado.classList.remove("mostrar");
+    mostraPergunta();
+}
+
+fontion substituiloNome() {
+    for (const pergunta of perguntas) {
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, none);
+    }
+}
+substituiNome();
+
+
+
+
+
+
+
+
+
+
+
