@@ -1,25 +1,26 @@
-const perguntas = [
+exprot const perguntas = [
 {
-    enunciado: "perdunta 1" , 
+    enunciado: "Você ficou satisfeito com o atendimento que recebeu?" , 
     alternativas:[
 {
-    text: "nike",
+    text: "sim",
     afirmação:[
-        "Qual é o maior planeta do nosso sistema solar",
-        "A) Júpiter B)Saturno"
+        "você ficou satisfeito"
     ],
+    proximo:1,
 },
 {
-   texto: "adidas",
+   texto: "Não",
    afirmação: [
-    "Qual desses planetas tem um sistema de anéis?",
-    "A)Jupiter B)Saturno",
+    "Você não ficou satisfeitio",
+    "",
          ],
+    prooximo:2,
        }
     ]
     },
     {
-        enunciado: "pergunta 2",
+        enunciado: "Você considera o atendimento rapido",
         alternativas:[
             {
         texto: "nike",
@@ -27,6 +28,7 @@ const perguntas = [
             "voce tem bom gosto",
             "afirmação 2",
             ],
+                proximo:3,
         },
      {
         texto:"adidas",
@@ -34,6 +36,7 @@ const perguntas = [
             "voce e vaiado",
             "voce não sabe escolher"
             ]
+         proxima: 4,
         }
     ]
 },
@@ -46,6 +49,7 @@ const perguntas = [
                 "voce tem bom gosto"
                 "afirmação 2"
                ]
+proximo: 5,
             }
         {
     texto:"adidas",
@@ -56,5 +60,24 @@ const perguntas = [
 }
 ]
 {
-    enunciado: "voce prefere nike ou adidas "
+    enunciado: "",
+        alternativa:[
+        ""
+        ""
+    ],
+        }
+]
+},
+enunciado:"pergunta 5 ",
+    alternativa:[
+    {
+        texto""
+        afirmação:[
+            ""
+            ""
+],
+    }
+    ]
+}
+]
         
