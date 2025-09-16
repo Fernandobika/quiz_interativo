@@ -1,83 +1,109 @@
 exprot const perguntas = [
 {
-    enunciado: "Você ficou satisfeito com o atendimento que recebeu?" , 
+    enunciado: "Qual é a sua cor favorita" , 
     alternativas:[
 {
-    text: "sim",
+    ""
+    texto: "Azul",
     afirmação:[
-        "você ficou satisfeito"
+        "Azul é uma cor muito  calma.",
+        "Simboliza tranquilidade e serenidade."
     ],
     proximo:1,
 },
 {
-   texto: "Não",
+   texto: "Vermelho",
    afirmação: [
-    "Você não ficou satisfeitio",
-    "",
+    "Vermelho simboliza paixão e energia.",
+    "È uma cor forte e vibrante",
          ],
-    prooximo:2,
+    proximo 1:,
        }
     ]
     },
     {
-        enunciado: "Você considera o atendimento rapido",
+        enunciado: "Você prefere café ou chá",
         alternativas:[
             {
-        texto: "nike",
+        texto: "Café",
         afirmação: [
-            "voce tem bom gosto",
-            "afirmação 2",
+            "O café é um bom estimulante para o dia",
+            "Ajuda a melhorar o foco e a energia",
             ],
-                proximo:3,
+                proximo 2:,
         },
      {
-        texto:"adidas",
+        texto:"Chá",
         afirmação:[
-            "voce e vaiado",
-            "voce não sabe escolher"
+            "O chá é relaxante e tem muitos benefícios.",
+            "Tem várias opções , como chá verde, preto, entre outros.",
             ]
-         proxima: 4,
+         proxima: 2,
         }
     ]
 },
 {
-    enunciado: "pergunta 4"
+    enunciado: "Qual sua estaçãp do ano favorita"
     alternativas:[
         {
-            texto:"nike"
+            texto:"Primavera",
             afirmação:{
-                "voce tem bom gosto"
-                "afirmação 2"
+                "As primaveras traz flores e u clima ameno.",
+                "E ums estação que simboliza renovação.",
                ]
-proximo: 5,
-            }
+proximo: 3,
+        },
         {
-    texto:"adidas",
+    texto:"Outono",
     afirmação:[
-    "voce e vaiado",
-    "voce não sabe escolher"
+    "O outono tem uma atmosfera tranquila e aconchegante.",
+    "E a estação da flores caindo e temperaturas agradáveis.",
     ],
+            proxima:3,
 }
-]
-{
-    enunciado: "",
-        alternativa:[
-        ""
-        ""
-    ],
-        }
-]
+    [
 },
-enunciado:"pergunta 5 ",
-    alternativa:[
+{
+    enunciado: "Você gosta de viagens longas",
+        alternativa:[
+            {
+        texto:"Sim ",
+        afirmação[
+            "Viagens longas podem ser uma grande aventura!"
+            "Elas peritem explorar mais lugares e culturas.",
+            ],
+            proxima: 4,
+            },
     {
-        texto""
-        afirmação:[
+        texto:"Não",
+        afirmação: [
+            "As vezes, viagens mais curtas"
+            ""
+            ],
+        proxima: 4,
+    }
+    ]
+},
+[
+    enunciado:"pergunta 5",
+    alternativas:[
+{
+    texto:"",
+    afirmação: [
+        ""
+        ""
+],
+    },
+    {
+        texto:"",
+        afirmação: [
             ""
             ""
 ],
-    }
-    ]
 }
+    ]
+    }
 ]
+    
+
         
