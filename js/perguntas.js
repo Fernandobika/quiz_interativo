@@ -72,38 +72,65 @@ proximo: 3,
             "Viagens longas podem ser uma grande aventura!"
             "Elas peritem explorar mais lugares e culturas.",
             ],
-            proxima: 4,
+            proxima: 3,
             },
     {
         texto:"Não",
         afirmação: [
             "As vezes, viagens mais curtas"
-            ""
+            "Elas permitem explorar mais lugares e culturas."
             ],
         proxima: 4,
-    }
+    },
+    {
+        texto: "Não",
+        afirmação: [
+            "As vezes, viagens mais curtas são agradáveis.",
+            "Viajar por menos tempo pode ser mais relaxante
+            ],
+        proximo: 4,
+            }
     ]
+    },
+    {
+        enunciado: "Você prefere viajar para o campo ou para a praia",
+        alternativas: [
+            {
+                texto: "Campo",
+                afirmação:[
+                    "O campo é um lugar tranquilo, ideal para relaxar.",
+                    "Você pode desfrutar de atividades ao ar livre, como caminhadas."
 },
 [
     enunciado:"pergunta 5",
     alternativas:[
 {
-    texto:"",
+    texto:"Praia",
     afirmação: [
-        ""
-        ""
+        "A praia é perfeita para quem ama o maf e o sol.",
+        "Você pode praticar esportes aquáticos ou simplesmente na areia."
 ],
-    },
-    {
-        texto:"",
-        afirmação: [
-            ""
-            ""
-],
+    proximo: 5,
 }
     ]
+    },
+    {
+        enunciado: "Qual tipo de música você mais gosta",
+        alternativas:[
+            {
+        texto:"Rock",
+        afirmação: [
+            "O rock é um estilo energizante e com muita historia.",
+            "È perfeito para quem gosta de intensidade."
+],
+                texto:"MPB",
+                afirmação:[
+                    "A MPB tem profundas e uma sonoridade unica.",
+                    "E um estilo que representa a cultura brasileira."
+                    ],
+            }
+            ]
     }
-]
-    
+    ]
 
         
