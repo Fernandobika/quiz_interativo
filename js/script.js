@@ -6,7 +6,7 @@ const caixaPergunta = document.querySelector(".caixa-pergunta");
 const caixaAlternativas = document.querySelector(".caixa-alternativas")
 const caixaResultado = document.querySelector (".caixa-resultado");
 const textoResultados = document.querySelector(".texto-resultado");
-const botaoJogarNovamente = documnet.querySelector(".novamente-btn")
+const botaoJogarNovamente = document.querySelector(".novamente-btn")
 const botaoIniciar = document.querySelector (".iniciar-bt");
 const telaInicial = document.querySelector (".tela-inicial");
 
@@ -66,7 +66,7 @@ function mostraResultado() {
     botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
-funtion jogaNovamente() {
+function jogaNovamente() {
     atual=0;
     historiaFinal = "";
     caixaResultado.classList.remove("mostrar");
