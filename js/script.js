@@ -19,7 +19,7 @@ botaoIniciar.addEventListener('click', iniciarJogo);
 function iniciarJogo() {
     atual= 0;
     historiaFinal = "";
-    telaInicial.computedStyleMap.display = 'none';
+    telaInicial.style.dispaly = 'none';
     caixaPergunta.classList.remove(".mostrar");
     caixaAlternativas.classList.remove(".mostrar");
     caixaResultado.classList.remove(".mostrar");
@@ -29,29 +29,29 @@ function iniciarJogo() {
 function mostraPegunta(){
 if (atual >= pergunta.length){
     mostraResultado();
+    return;
 };
-
-perguntaAtual = pergunta[atual];
-caixaPergunta.textContent = perguntaAtual.enunciado
+perguntaAtual = perguntas[atual];
+caixaPergunta.textContent = perguntaAtual.enunciado;
 caixaAlternativas.textContent = "";
 mostraAlternativa();
 }
 
 function mostraAlternativa() {
-    for(const alternativa of perguntaAtual.enunciado){
-        const boataoAlternativas.textContent = "";
+    for(const alternativa of perguntaAtual.alternativa){
+        const boataoAlternativas = document.creatElement("button");
         boataoAlternativas.textContent = "alternativa.texto";
-        boataoAlternativas.addEventListener(("click, ()=> respostaSelecionados(alternativa)");
+        boataoAlternativas.addEventListener(("click", ()=> respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(boataoAlternativas);
     }
 }
 
 function respostaSelecionados(opcaoSelecionada) {
 const afirmacoes = aleatorios(opcaoSelecionadas.afirmacao);
-    historiaFinal +=afirmacoes +"";
-    if(opcapSelecionada.proxima;
+    historiaFinal += afirmacoes + " ";
+    if(opcapSelecionada.proxima !== undefined);
     atual = opcaoSelecionada.proxima;
-}else}
+}else{
 mostraResultado();
 return;
 }
